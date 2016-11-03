@@ -1,5 +1,5 @@
 name        : badbank          # name of the package
-version     : 0.0.1       # version of the package
+version     : 0.0.2       # version of the package
 kind        : spec                     # one of tool or spec(s)
 description : Example base spec.
 

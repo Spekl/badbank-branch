@@ -13,5 +13,5 @@ public class BadBank {
      @    assignable \nothing;
      @    signals (IllegalArgumentException);
      @*/
-    public /*@ pure *@/ void withdraw(int amt) throws IllegalArgumentException;
+    public /*@ pure @*/ void withdraw(int amt) throws IllegalArgumentException;
 }
