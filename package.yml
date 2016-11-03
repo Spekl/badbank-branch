@@ -1,5 +1,5 @@
 name        : badbank-branch          # name of the package
-version     : 0.0.1       # version of the package
+version     : branch-0.0.1       # version of the package
 kind        : spec                     # one of tool or spec(s)
 description : A custom branch
 extends     : badbank              
