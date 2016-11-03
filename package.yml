@@ -1,8 +1,8 @@
-name        : badbank          # name of the package
-version     : 0.0.4       # version of the package
+name        : badbank-branch          # name of the package
+version     : 0.0.1       # version of the package
 kind        : spec                     # one of tool or spec(s)
-description : Example base spec.
-
+description : A custom branch
+extends     : badbank              
 author:
   - name: John L. Singleton
     email: jsinglet@gmail.com
