@@ -1,0 +1,17 @@
+public class BadBank {
+
+    /*@
+     @  public normal_behavior
+     @    requires amt > 0 && amt <= 200;
+     @    requires amt <= balance;
+     @    requires balance > 0;
+     @    assignable balance;
+     @    ensures balance < \old(balance) && balance >= 0;
+     @ also
+     @  public exceptional_behavior
+     @    requires amt > balance;
+     @    assignable \nothing;
+     @    signals (IllegalArgumentException);
+     @*/
+    public /*@ pure *@/ void withdraw(int amt) throws IllegalArgumentException;
+}
