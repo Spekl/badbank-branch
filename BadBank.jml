@@ -15,5 +15,8 @@ public class BadBank {
      @*/
     public void withdraw(int amt) throws IllegalArgumentException;
 
+    //@ requires true;
     public /*@ pure @*/ int getBalance();
+
+
 }
